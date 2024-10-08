@@ -1,0 +1,60 @@
+<RCC>
+    <qresource prefix="/qml/com/dev/themes/components">
+        <file alias="qmldir">qml/com/dev/themes/components/qmldir</file>
+        <file alias="ExtendedLoader.qml">qml/com/dev/themes/components/ExtendedLoader.qml</file>
+        <file alias="Feature.qml">qml/com/dev/themes/components/Feature.qml</file>
+        <file alias="FeatureForm.qml">qml/com/dev/themes/components/FeatureForm.qml</file>
+    </qresource>
+    <qresource prefix="/qml/com/dev/themes/controls">
+        <file alias="qmldir">qml/com/dev/themes/controls/qmldir</file>
+        <file alias="AbstractButton.qml">qml/com/dev/themes/controls/AbstractButton.qml</file>
+        <file alias="ColorImage.qml">qml/com/dev/themes/controls/ColorImage.qml</file>
+        <file alias="CommonButton.qml">qml/com/dev/themes/controls/CommonButton.qml</file>
+        <file alias="CommonButtonStateGroup.qml">qml/com/dev/themes/controls/CommonButtonStateGroup.qml</file>
+        <file alias="FontMeasuredTextItem.qml">qml/com/dev/themes/controls/FontMeasuredTextItem.qml</file>
+        <file alias="Paddings.qml">qml/com/dev/themes/controls/Paddings.qml</file>
+        <file alias="RadioButton.qml">qml/com/dev/themes/controls/RadioButton.qml</file>
+        <file alias="ScrollBar.qml">qml/com/dev/themes/controls/ScrollBar.qml</file>
+        <file alias="Slider.qml">qml/com/dev/themes/controls/Slider.qml</file>
+        <file alias="StyledTextItem.qml">qml/com/dev/themes/controls/StyledTextItem.qml</file>
+        <file alias="TextMeasuredTextItem.qml">qml/com/dev/themes/controls/TextMeasuredTextItem.qml</file>
+        <file alias="TextStyle.qml">qml/com/dev/themes/controls/TextStyle.qml</file>
+        <file alias="Utils.qml">qml/com/dev/themes/controls/Utils.qml</file>
+    </qresource>
+    <qresource prefix="/qml/com/dev/themes/singletons">
+        <file alias="qmldir">qml/com/dev/themes/singletons/qmldir</file>
+        <file alias="Build.qml">qml/com/dev/themes/singletons/Build.qml</file>
+        <file alias="Dimen.qml">qml/com/dev/themes/singletons/Dimen.qml</file>
+        <file alias="JsonPath.qml">qml/com/dev/themes/singletons/JsonPath.qml</file>
+        <file alias="HttpRequests.js">qml/com/dev/themes/singletons/HttpRequests.js</file>
+        <file alias="Locations.qml">qml/com/dev/themes/singletons/Locations.qml</file>
+        <file alias="Strings.qml">qml/com/dev/themes/singletons/Strings.qml</file>
+        <file alias="ThemeConstants.qml">qml/com/dev/themes/singletons/ThemeConstants.qml</file>
+        <file alias="TimeFormatter.qml">qml/com/dev/themes/singletons/TimeFormatter.qml</file>
+        <file alias="Translations.qml">qml/com/dev/themes/singletons/Translations.qml</file>
+        <file alias="Utils.qml">qml/com/dev/themes/singletons/Utils.qml</file>
+    </qresource>
+    <qresource prefix="/qml/screens/globe/highlights">
+        <file alias="Actions.js">qml/screens/globe/highlights/Actions.js</file>
+        <file alias="DataState.qml">qml/screens/globe/highlights/DataState.qml</file>
+        <file alias="Dispatcher.qml">qml/screens/globe/highlights/Dispatcher.qml</file>
+        <file alias="DispatcherWorker.js">qml/screens/globe/highlights/DispatcherWorker.js</file>
+        <file alias="FlightInfoHighlightsChannel.qml">qml/screens/globe/highlights/FlightInfoHighlightsChannel.qml</file>
+        <file alias="FopHighlightsChannel.qml">qml/screens/globe/highlights/FopHighlightsChannel.qml</file>
+        <file alias="JsonPathHighlightsChannel.qml">qml/screens/globe/highlights/JsonPathHighlightsChannel.qml</file>
+        <file alias="HighlightsBackground.qml">qml/screens/globe/highlights/HighlightsBackground.qml</file>
+        <file alias="HighlightsChannel.qml">qml/screens/globe/highlights/HighlightsChannel.qml</file>
+        <file alias="HighlightsFeature.qml">qml/screens/globe/highlights/HighlightsFeature.qml</file>
+        <file alias="HighlightsFeatureForm.qml">qml/screens/globe/highlights/HighlightsFeatureForm.qml</file>
+        <file alias="HighlightsLayout.qml">qml/screens/globe/highlights/HighlightsLayout.qml</file>
+        <file alias="HighlightsLayoutForm.qml">qml/screens/globe/highlights/HighlightsLayoutForm.qml</file>
+        <file alias="HighlightsStore.qml">qml/screens/globe/highlights/HighlightsStore.qml</file>
+        <file alias="UIState.qml">qml/screens/globe/highlights/UIState.qml</file>
+    </qresource>
+    <qresource prefix="/qml/screens/globe/highlights/images">
+        <file alias="message.png">qml/screens/globe/highlights/images/message.png</file>
+        <file alias="message@2x.png">qml/screens/globe/highlights/images/message@2x.png</file>
+        <file alias="pin.png">qml/screens/globe/highlights/images/pin.png</file>
+        <file alias="pin@2x.png">qml/screens/globe/highlights/images/pin@2x.png</file>
+    </qresource>
+</RCC>

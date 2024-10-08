@@ -1,0 +1,28 @@
+module com.dev.themes.controls
+
+AbstractButton 1.0 AbstractButton.qml
+ColorImage 1.0 ColorImage.qml
+CommonButton 1.0 CommonButton.qml
+CommonButtonStateGroup 1.0 CommonButtonStateGroup.qml
+FontMeasuredTextItem 1.0 FontMeasuredTextItem.qml
+Paddings 1.0 Paddings.qml
+Radar 1.0 Radar.qml
+RadioButton 1.0 RadioButton.qml
+ScrollBar 1.0 ScrollBar.qml
+SearchBar 1.0 SearchBar.qml
+Slider 1.0 Slider.qml
+StackViewItem 1.0 StackViewItem.qml
+StyledTextItem 1.0 StyledTextItem.qml
+SwipeView 1.0 SwipeView.qml
+Switch 1.0 Switch.qml
+TextMeasuredTextItem 1.0 TextMeasuredTextItem.qml
+TextStyle 1.0 TextStyle.qml
+TickImage 1.0 TickImage.qml
+
+singleton Utils 1.0 Utils.qml
+
+internal Pen Pen.qml
+internal RadarSector RadarSector.qml
+internal SearchBarForm SearchBarForm.qml
+internal SwipeViewForm SwipeViewForm.qml
+internal Tickmark Tickmark.qml

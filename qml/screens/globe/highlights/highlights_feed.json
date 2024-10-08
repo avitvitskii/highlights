@@ -1,0 +1,177 @@
+{
+	"feed": [
+		{
+			"COMMENT": "Explore",
+			"typeId": "basic",
+			"id": 1,
+			"data": {
+				"cacheBreak": false,
+				"url": ""
+			},
+			"title": "Explore (origin)",
+			"description": "",
+			"image": {
+				"url": "$(SERVER)/$(COMMON)/download/highlights/tb_yellow_poi.png"
+			},
+			"settings": {
+				"display": {
+					"interval": 1,
+					"onFirstCycle": true
+				}
+			},
+			"action": {
+				"typeId": "destGuideOrigin"
+			}
+		},
+		{
+			"COMMENT": "Educational Highlight 1",
+			"typeId": "basic",
+			"id": 3,
+			"data": {
+				"cacheBreak": false,
+				"url": ""
+			},
+			"title": "Click bubbles to reveal more details",
+			"description": "",
+			"image": {
+				"url": "$(SERVER)/$(COMMON)/download/highlights/click.png"
+			},
+			"settings": {
+				"display": {
+					"interval": 5,
+					"onFirstCycle": false
+				}
+			},
+			"action": {
+				"typeId": "",
+				"payload": {
+					"url": ""
+				}
+			}
+		},
+		{
+			"COMMENT": "Flight Information from flight_info.xml",
+			"typeId": "flightInfo",
+			"id": 9,
+			"image": {
+				"url": "$(SERVER)/$(COMMON)/download/highlights/aircraft.png"
+			},
+			"settings": {
+				"display": {
+					"interval": 2,
+					"onFirstCycle": true
+				}
+			},
+			"action": {
+				"typeId": "flightInfo",
+				"payload": null
+			},
+			"analytics": {
+				"payload": "",
+				"target": ""
+			}
+		},
+		{
+			"COMMENT": "DG",
+			"id": 77,
+			"typeId": "JSONPath",
+			"data": {
+                "cacheBreak": false,
+                "url": "$(SERVER)/fp3d_fcgi/destination-guide/v1/pois/(destination)/attractions?lang=en"
+            },
+			"settings": {
+				"display": {
+					"interval": 1,
+					"onFirstCycle": true
+				}
+			},
+			"title": "$..description",
+			"description": "",
+			"image": {
+				"url": "$(SERVER)/$(COMMON)/download/highlights/tb_poi_green.png"
+			},
+			"action": {
+                "typeId": "destGuideDestination",
+                "payload": {
+                    "destination": "$..id"
+                }
+            }
+		},
+		{
+			"COMMENT": "Educational Highlight 2",
+			"typeId": "basic",
+			"id": 6,
+			"data": {
+				"cacheBreak": false,
+				"url": ""
+			},
+			"title": "Swipe up to revisit info",
+			"description": "",
+			"image": {
+				"url": "$(SERVER)/$(COMMON)/download/highlights/swipe_up.png"
+			},
+			"settings": {
+				"display": {
+					"interval": 2,
+					"onFirstCycle": true
+				}
+			},
+			"action": {
+				"payload": {
+					"url": ""
+				},
+				"typeId": ""
+			}
+		},
+		{
+			"COMMENT": "Getting FoP title",
+			"id": 7,
+			"typeId": "fop",
+			"data": {
+				"cacheBreak": false,
+				"url": "$(SERVER)/fp3d_logs/fop/fop-data.en.json"
+			},
+			"settings": {
+				"display": {
+					"interval": 1,
+					"onFirstCycle": true
+				}
+			},
+			"title": "",
+			"description": "$.pois[*].title",
+			"image": {
+				"url": "$(SERVER)/$(COMMON)/download/highlights/compass.png"
+			},
+			"action": {
+				"typeId": "fop",
+				"payload": null
+			}
+		},	
+		{
+			"COMMENT": "Educational Highlight 3",
+			"typeId": "basic",
+			"id": 8,
+			"data": {
+				"cacheBreak": false,
+				"url": ""
+			},
+			"title": "Swipe down to minimize this chat",
+			"description": "",
+			"image": {
+				"url": "$(SERVER)/$(COMMON)/download/highlights/swipe_down.png"
+			},
+			"settings": {
+				"display": {
+					"interval": 7,
+					"onFirstCycle": false
+				}
+			},
+			"action": {
+				"payload": {
+					"url": ""
+				},
+				"typeId": ""
+			}
+		}
+	]
+}

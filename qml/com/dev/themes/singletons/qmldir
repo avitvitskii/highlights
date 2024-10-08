@@ -1,0 +1,11 @@
+module com.dev.themes.singletons
+
+singleton Build 1.0 Build.qml
+singleton Dimen 1.0 Dimen.qml
+singleton JsonPath 1.0 JsonPath.qml
+singleton Locations 1.0 Locations.qml
+singleton Strings 1.0 Strings.qml
+singleton ThemeConstants 1.0 ThemeConstants.qml
+singleton TimeFormatter 1.0 TimeFormatter.qml
+singleton Translations 1.0 Translations.qml
+singleton Utils 1.0 Utils.qml

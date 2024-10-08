@@ -1,0 +1,6 @@
+module com.dev.themes.components
+
+ExtendedLoader 1.0 ExtendedLoader.qml
+Feature 1.0 Feature.qml
+
+internal FeatureForm FeatureForm.qml

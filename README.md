@@ -3,6 +3,10 @@ Highlights feature in QML
 
 Highlights simulate AI showing different information messages, configured with highlights_feed.json, which uses JSONPath for flixible data interpretation.
 
+![image](https://github.com/user-attachments/assets/43435666-f5b3-4264-868d-b50ed27f22cd)
+
+![image](https://github.com/user-attachments/assets/5b9b572c-ea37-48c8-86e5-2c58bad294d7)
+
 **Highlights script**  
 
 Order and content of the feed bubbles is defined in the highlights script file (in the example above it is `highlights_feed.json`).   
